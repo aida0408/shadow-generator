@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header>
+    <nav>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Box Shadow</a></li>
+            <li><a href="#">Text Shadow</a></li>
+            <li><a href="#">Css Cursor</a></li>
+            <li><a href="#">Border</a></li>
+            <li><a href="#">Border Radius</a></li>
+            <li><a href="#">Gradient Css</a></li>
+            <li><a href="#">Transform Css</a></li>
+            <li><a href="#">RGBA & Hex Color</a></li>
+            <li><a href="#">Multiple Columns</a></li>
+            <li><a href="#">Filter</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <div class="container">
+        <div class="panel">
+            <div class="left">
+                <div class="panel-list">
+                    <h2>Box Shadow Options</h2>
+                </div>
+            </div>
+            <p>Blur Radius</p>
+            <input type="range" class="border-radius" max="50" value="0">
+
+            <p>Horizontal Shadow Length</p>
+            <input type="range" class="offsetX"  value="10">
+
+            <p>Vertical Shadow Length</p>
+            <input type="range" class="offsetY" value="10">
+
+            <p>Spread Radius</p>
+            <input type="range" class="spread" value="10">
+
+            <p>Blur Radius</p>
+            <input type="color" class="shadow-color" value="10">
+
+            <p>Shadow Color</p>
+            <input type="color" class="color">
+
+            <p>Shadow Color Opacity</p>
+            <input type="range" class="blur" value="10">
+
+            <p>Inset</p>
+            <input type="radio" class="outset" name="type" checked>
+            <input type="radio" class="inset" name="type">
+
+        </div>
+        <div class="right">
+        <div class="box"></div>
+        <div class="out"></div>
+
+    </div>
+    </div>
+
+</main>
+
+<script src = ./script.js></script>
+</body>
+</html>
