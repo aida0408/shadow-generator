@@ -33,13 +33,13 @@ ul li{
 }
 .panel-list{
     display: flex;
-    margin-right: 15px;
-    font-size: 25px;
+    margin-right: 20px;
+    font-size: 20px;
     color: #555555;
 }
 .panel{
-    margin-right: 15px;
-    font-size: 25px;
+    margin: 15px 0;
+    font-size: 20px;
     color: #555555;
 }
 .box{
@@ -52,7 +52,6 @@ ul li{
     height: 100px;
     max-width: 100%;
     background-color: grey;
-    margin: 50px;
-}
-main {
+
+    margin: 50px 10px;
 }
