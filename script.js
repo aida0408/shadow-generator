@@ -10,6 +10,12 @@ const out = document.querySelector('.out')
 const outSet = document.querySelector('.outset')
 const inSet = document.querySelector('.inset')
 
+// const slider = document.getElementById("range")
+const output = document.getElementById("demo")
+const outputX = document.getElementById("demoX")
+const outputY = document.getElementById("demoY")
+const outputBlur = document.getElementById("demoBlur")
+const outputSpread = document.getElementById("demoSpread")
 
 
 //onchange
@@ -27,6 +33,11 @@ inSet.oninput = cssGenerator
 
 
 function cssGenerator() {
+    outputBlur.textContent = borderRadius.value
+    outputX.textContent = offsetX.value
+    outputY.textContent = offsetY.value
+    outputSpread.textContent = spread.value
+
     console.log(outSet.checked)
     console.log(borderRadius.value)
     box.style.borderRadius = borderRadius.value + "%"
@@ -37,3 +48,5 @@ function cssGenerator() {
     out.innerHTML += `-mox-box-shadow:${offsetX.value}px ${offsetY.value}px ${blur.value}px ${spread.value}px ${shadowColor.value}`
 }
 cssGenerator()
+
+

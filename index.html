@@ -31,33 +31,41 @@
         <div class="panel">
             <div class="left">
                 <div class="panel-list">
-                    <h2>Box Shadow Options</h2>
+                    <h2 class="text">Box Shadow Options</h2>
                 </div>
             </div>
-            <p>Blur Radius</p>
-            <input type="range" class="border-radius" max="50" value="0">
+            <p class="title">Border Radius</p>
+            <input type="range" class="border-radius" max="50" min="-50" value="0">
+            <p>Value: <span id="demoBlur"></span></p>
 
-            <p>Horizontal Shadow Length</p>
+            <p class="title">Horizontal Shadow Length</p>
             <input type="range" class="offsetX"  value="10">
+            <p>Value: <span id="demoX"></span></p>
 
-            <p>Vertical Shadow Length</p>
+            <p class="title">Vertical Shadow Length</p>
             <input type="range" class="offsetY" value="10">
+            <p>Value: <span id="demoY"></span></p>
 
-            <p>Spread Radius</p>
+            <p class="title">Spread Radius</p>
             <input type="range" class="spread" value="10">
+            <p>Value: <span id="demoSpread"></span></p>
 
-            <p>Blur Radius</p>
+            <p class="title">Blur Radius</p>
             <input type="color" class="shadow-color" value="10">
 
-            <p>Shadow Color</p>
+
+            <p class="title">Shadow Color</p>
             <input type="color" class="color">
 
-            <p>Shadow Color Opacity</p>
+
+            <p class="title">Shadow Color Opacity</p>
             <input type="range" class="blur" value="10">
 
-            <p>Inset</p>
+
+            <p class="title">Inset</p>
             <input type="radio" class="outset" name="type" checked>
             <input type="radio" class="inset" name="type">
+
 
         </div>
         <div class="right">
